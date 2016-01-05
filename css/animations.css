@@ -26,6 +26,31 @@
   }
 }
 
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0.25
+  }
+  25% {
+    opacity: 1
+  }
+  35% {
+    opacity: 0.5
+  }
+  45% {
+    opacity: 1
+  }
+  60% {
+    opacity: 0.5
+  }
+  80% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0.25
+  }
+
+}
+
 @keyframes blink {
   0% {
     opacity: 0.25
@@ -51,6 +76,42 @@
 
 }
 
+@-webkit-keyframes fade {
+  0% {
+    background-color: rgb(183, 209, 246)
+  }
+  10% {
+    background-color: rgb(214, 225, 241)
+  }
+  15% {
+    background-color: rgb(164, 164, 160)
+  }
+  20% {
+    background-color: rgb(191, 129, 123)
+  }
+  25% {
+    background-color: rgb(100, 118, 140)
+  }
+  50% {
+    background-color: rgb(39, 52, 68)
+  }
+  75% {
+    background-color: rgb(100, 118, 140)
+  }
+  80% {
+    background-color: rgb(227, 208, 143)
+  }
+  85% {
+    background-color: rgb(218, 208, 173)
+  }
+  90% {
+    background-color: rgb(214, 225, 241)
+  }
+  100% {
+    background-color: rgb(183, 209, 246)
+  }
+}
+
 @keyframes fade {
   0% {
     background-color: rgb(183, 209, 246)
@@ -68,7 +129,7 @@
     background-color: rgb(100, 118, 140)
   }
   50% {
-    background-color: rgb(63, 83, 106)
+    background-color: rgb(39, 52, 68)
   }
   75% {
     background-color: rgb(100, 118, 140)
