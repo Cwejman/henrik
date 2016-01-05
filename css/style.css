@@ -77,10 +77,8 @@ body {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  /*background-image: url('henrik.jpg');*/
   background-size: cover;
   background-position: center;
-  /*opacity: 0.8;*/
   margin: 0;
 }
 
@@ -88,6 +86,7 @@ body {
 /*                           E L E M E N T S   B Y                            */
 /*                                    I D                                     */
 /*                                                                            */
+
 
 #background {
   position: fixed;
@@ -103,18 +102,22 @@ body {
 }
 
 #stars {
+  background-image: url('../res/stars.svg');
+  background-size: 50%;
+  background-repeat: repeat;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vmax;
-  height: 100vmax;
-  -webkit-animation: night 30s;
-          animation: night 30s;
+  top: -50vmax;
+  left: -50vmax;
+  width: 200vmax;
+  height: 200vmax;
+  -webkit-animation: night 30s linear;
+          animation: night 30s linear;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
 
 #cycle {
+  background-image: url('../res/cycle.svg');
   position: fixed;
   bottom: -30vmin;
   left: calc(50vw - 50vmin);
