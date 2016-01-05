@@ -13,3 +13,10 @@ read message
 git commit -m "$message"
 
 git push origin
+
+echo "rebasing with master"
+
+git checkout gh-pages
+git rebase master
+git push origin gh-pages
+git checkout master
