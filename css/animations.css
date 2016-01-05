@@ -1,0 +1,196 @@
+/*                                                                            */
+/*                        A N I M A T I O N S   F O R                         */
+/*                    H E N R I K W A L L G R E N . C O M                     */
+/*                                                                            */
+/*              I S   T H I S   S T Y L E S H E E T   L O S T ?               */
+/*       P E T   I T   W E L L   O R   R E T U R N   T O   M A S T E R :      */
+/*                                                                            */
+/*                   G I T H U B . C O M / C W E J M A N                      */
+/*                                                                            */
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0.25
+  }
+  25% {
+    opacity: 1
+  }
+  35% {
+    opacity: 0.5
+  }
+  45% {
+    opacity: 1
+  }
+  60% {
+    opacity: 0.5
+  }
+  80% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0.25
+  }
+
+}
+
+@keyframes fade {
+  0% {
+    background-color: rgb(183, 209, 246)
+  }
+  10% {
+    background-color: rgb(214, 225, 241)
+  }
+  15% {
+    background-color: rgb(164, 164, 160)
+  }
+  20% {
+    background-color: rgb(191, 129, 123)
+  }
+  25% {
+    background-color: rgb(100, 118, 140)
+  }
+  50% {
+    background-color: rgb(63, 83, 106)
+  }
+  75% {
+    background-color: rgb(100, 118, 140)
+  }
+  80% {
+    background-color: rgb(227, 208, 143)
+  }
+  85% {
+    background-color: rgb(218, 208, 173)
+  }
+  90% {
+    background-color: rgb(214, 225, 241)
+  }
+  100% {
+    background-color: rgb(183, 209, 246)
+  }
+}
+
+@-webkit-keyframes night {
+  0% {
+    opacity: 0
+  }
+  25% {
+    opacity: 0
+  }
+  30% {
+    opacity: 0.5
+  }
+  35%{
+    opacity: 1
+  }
+  37%{
+    opacity: 0.5
+  }
+  39%{
+    opacity: 1
+  }
+  42%{
+    opacity: 0.5
+  }
+  44%{
+    opacity: 1
+  }
+  148%{
+    opacity: 0.5
+  }
+  53%{
+    opacity: 1
+  }
+  55%{
+    opacity: 0.5
+  }
+  57%{
+    opacity: 1
+  }
+  60%{
+    opacity: 0.5
+  }
+  64%{
+    opacity: 1
+  }
+  68%{
+    opacity: 0.5
+  }
+  75% {
+    opacity: 0
+  }
+  100% {
+    opacity: 0
+  }
+}
+
+@keyframes night {
+  0% {
+    opacity: 0
+  }
+  25% {
+    opacity: 0
+  }
+  30% {
+    opacity: 0.5
+  }
+  35%{
+    opacity: 1
+  }
+  37%{
+    opacity: 0.5
+  }
+  39%{
+    opacity: 1
+  }
+  42%{
+    opacity: 0.5
+  }
+  44%{
+    opacity: 1
+  }
+  148%{
+    opacity: 0.5
+  }
+  53%{
+    opacity: 1
+  }
+  55%{
+    opacity: 0.5
+  }
+  57%{
+    opacity: 1
+  }
+  60%{
+    opacity: 0.5
+  }
+  64%{
+    opacity: 1
+  }
+  68%{
+    opacity: 0.5
+  }
+  75% {
+    opacity: 0
+  }
+  100% {
+    opacity: 0
+  }
+}
