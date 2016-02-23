@@ -6,9 +6,7 @@
 <circle fill="#EDEBE6" cx="497.7" cy="311.4" r="4.4"/>
 <circle fill="#EDEBE6" cx="594.6" cy="433.3" r="4.4"/>
 <circle fill="#EDEBE6" cx="585.8" cy="78.5" r="4.4"/>
-<circle fill="#EDEBE6" cx="827.4" cy="377.8" r="4.4"/>
 <circle fill="#EDEBE6" cx="359.5" cy="829.4" r="4.4"/>
-<circle fill="#EDEBE6" cx="21.1" cy="841.9" r="4.4"/>
 <circle fill="#EDEBE6" cx="4.4" cy="588.9" r="4.4"/>
 <circle fill="#EDEBE6" cx="4.4" cy="138.4" r="4.4"/>
 <circle fill="#EDEBE6" cx="16.7" cy="167.7" r="4.4"/>
@@ -49,9 +47,7 @@
 <circle fill="#EDEBE6" cx="522.7" cy="189.4" r="3.1"/>
 <circle fill="#EDEBE6" cx="516.6" cy="142.7" r="3.1"/>
 <circle fill="#EDEBE6" cx="443.1" cy="34.5" r="3.1"/>
-<circle fill="#EDEBE6" cx="370.7" cy="0" r="3.1"/>
 <circle fill="#EDEBE6" cx="281.3" cy="63" r="3.1"/>
-<circle fill="#EDEBE6" cx="783.7" cy="840.6" r="3.1"/>
 <circle fill="#EDEBE6" cx="185.4" cy="96.3" r="3.1"/>
 <circle fill="#EDEBE6" cx="94" cy="59.9" r="3.1"/>
 <circle fill="#EDEBE6" cx="774.4" cy="74.2" r="3.1"/>
@@ -66,4 +62,5 @@
 <circle fill="#EDEBE6" cx="131" cy="148.2" r="4.4"/>
 <circle fill="#EDEBE6" cx="399.8" cy="129.7" r="4.4"/>
 <circle fill="#EDEBE6" cx="435.7" cy="148.2" r="4.4"/>
+<rect fill="none" width="841.9" height="841.9"/>
 </svg>
