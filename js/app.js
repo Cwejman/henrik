@@ -8,15 +8,21 @@ angular.module('henrik', ['ui.router', 'controllers'])
     controller: 'HomeCtrl'
   })
 
-  .state('adventure', {
-    url: '/adventure',
-    templateUrl: 'partials/adventure.html',
+  .state('assignments', {
+    url: '/assignments',
+    templateUrl: 'partials/assignments.html',
     controller: 'HomeCtrl'
   })
 
   .state('clients', {
     url: '/clients',
     templateUrl: 'partials/clients.html',
+    controller: 'HomeCtrl'
+  })
+
+  .state('adventure', {
+    url: '/adventure',
+    templateUrl: 'partials/adventure.html',
     controller: 'HomeCtrl'
   })
 
