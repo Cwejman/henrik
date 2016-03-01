@@ -8,12 +8,6 @@ angular.module('henrik', ['ui.router', 'controllers'])
     controller: 'HomeCtrl'
   })
 
-  .state('assignments', {
-    url: '/assignments',
-    templateUrl: 'partials/assignments.html',
-    controller: 'HomeCtrl'
-  })
-
   .state('clients', {
     url: '/clients',
     templateUrl: 'partials/clients.html',
@@ -23,6 +17,12 @@ angular.module('henrik', ['ui.router', 'controllers'])
   .state('adventure', {
     url: '/adventure',
     templateUrl: 'partials/adventure.html',
+    controller: 'HomeCtrl'
+  })
+
+  .state('published', {
+    url: '/published',
+    templateUrl: 'partials/published.html',
     controller: 'HomeCtrl'
   })
 
