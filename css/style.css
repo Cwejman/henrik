@@ -40,7 +40,10 @@
 @media only screen and (min-width: 500px) {
 
   body {
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   #wrapper {
@@ -75,7 +78,10 @@
 @media only screen and (max-width: 500px) {
 
   body {
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 
   .nav {
@@ -96,7 +102,10 @@
   }
 
   #menu {
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     box-shadow: 12px 0 15px -4px rgba(122, 122, 122, 0.1),
                 -12px 0 8px -4px rgba(122, 122, 122, 0.1);
   }
@@ -203,13 +212,16 @@ body {
 
 #menu {
   background-color: rgba(240, 240, 240, 0.7);
+  -webkit-transition: all 1s;
   transition: all 1s;
   padding-bottom: 8px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
