@@ -156,6 +156,14 @@ body {
   margin: 0;
 }
 
+a {
+  cursor: default !important;
+}
+
+a[href], a[ui-sref] {
+  cursor: pointer !important;
+}
+
 /*                                                                            */
 /*                           E L E M E N T S   B Y                            */
 /*                                    I D                                     */
